@@ -1,0 +1,1 @@
+﻿function centerModal(){$(this).css("display","block");var o=$(this).find(".modal-dialog"),i=($(window).height()-o.height())/2;o.css("margin-top",i)}$(".modal").on("show.bs.modal",centerModal),$(window).on("resize",function(){$(".modal:visible").each(centerModal)});

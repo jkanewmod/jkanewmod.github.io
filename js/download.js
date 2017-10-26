@@ -1,0 +1,1 @@
+﻿$(document).ready(function(){$("#windows").hide(),$("#nonwindows").hide(),$("#manual-newmod-help").hide(),$("#manual-newjk-help").hide()}),$("#windowsbutton").click(function(){$("#os").hide(),$("#windows").fadeIn()}),$("#macbutton, #linuxbutton").click(function(){$("#os").hide(),$("#nonwindows").fadeIn()});
