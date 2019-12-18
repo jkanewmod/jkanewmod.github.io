@@ -1,1 +1,1 @@
-﻿now=new Date,theYear=now.getYear(),theYear<1900&&(theYear+=1900),document.write('<p class="text-center">Copyright &copy; 2016-'+theYear+" Alpha and Duo</p>");
+﻿now=new Date,theYear=now.getYear(),theYear<1900&&(theYear+=1900),document.write('<h6 class="text-center">Copyright &copy; 2016-'+theYear+" Alpha and Duo</h6>");
